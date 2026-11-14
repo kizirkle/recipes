@@ -18,4 +18,3 @@ jobs:
           VITE_RECIPE_KEY: ${{ secrets.VITE_RECIPE_KEY }}
         run: |
           # Your script can now read $API_KEY from the environment
-          python my_script.py
