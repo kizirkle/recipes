@@ -10,8 +10,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        working-directory: ./src
-        run: npm run deploy
+        uses: actions/checkout@v4
 
       - name: Run script using secret
         env:
